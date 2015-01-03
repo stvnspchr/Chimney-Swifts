@@ -1,0 +1,32 @@
+# No need to add the wp-admin folder to the repo #
+wp-admin/
+
+wp-content/themes
+wp-content/plugins
+
+*.php
+!/wp-content/**/*.php
+!/wp-content/themes/**/*.php
+
+# No need to add the wp-includes folder to the repo #
+wp-includes/
+
+# No need to add the upgrade folder to the repo #
+wp-content/upgrade/*
+
+# No need to add the uploads folder to the repo #
+wp-content/uploads/*
+
+# No need to add the plugins folder to the repo #
+wp-content/plugins/*
+
+# sitemaps not needed locally #
+sitemap.xml
+sitemap.xml.gz
+
+# no need for these #
+readme.html
+license.txt
+.htaccess
+.log
+.DS_Store

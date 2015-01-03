@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ReMag\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-17 17:42+0530\n"
+"PO-Revision-Date: 2013-07-17 17:42+0530\n"
+"Last-Translator: Chandra <maharzan@gmail.com>\n"
+"Language-Team: Graph Paper Press\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:36
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:24
+#, php-format
+msgid "Category Archives %s"
+msgstr ""
+
+#: archive.php:27
+#, php-format
+msgid "Tag Archives %s"
+msgstr ""
+
+#: archive.php:34
+#, php-format
+msgid "Author Archives %s"
+msgstr ""
+
+#: archive.php:42
+#, php-format
+msgid "Daily Archives %s"
+msgstr ""
+
+#: archive.php:45
+#, php-format
+msgid "Monthly Archives %s"
+msgstr ""
+
+#: archive.php:48
+#, php-format
+msgid "Yearly Archives %s"
+msgstr ""
+
+#: archive.php:51
+msgid "Asides"
+msgstr ""
+
+#: archive.php:54
+msgid "Images"
+msgstr ""
+
+#: archive.php:57
+msgid "Videos"
+msgstr ""
+
+#: archive.php:60
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:63
+msgid "Links"
+msgstr ""
+
+#: archive.php:66
+msgid "Archives"
+msgstr ""
+
+#: comments.php:38
+#: comments.php:58
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:39
+#: comments.php:59
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:40
+#: comments.php:60
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#: content-gallery.php:12
+#: content-image.php:33
+#: content-video.php:42
+#: content.php:10
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-image.php:45
+#: content-quote.php:10
+#: content.php:18
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-image.php:46
+#: content-page.php:16
+#: content-single.php:52
+#: content.php:19
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:18
+#: content-single.php:46
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:14
+#: content-single.php:17
+msgid ", "
+msgstr ""
+
+#: content-single.php:22
+#, php-format
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:24
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:30
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:32
+#, php-format
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: functions.php:94
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:143
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:152
+msgid "Below Menu"
+msgstr ""
+
+#: index.php:33
+msgid "Menu"
+msgstr ""
+
+#: index.php:34
+msgid "Skip to content"
+msgstr ""
+
+#: index.php:41
+msgid "Proudly powered by"
+msgstr ""
+
+#: index.php:41
+msgid "WordPress"
+msgstr ""
+
+#: index.php:42
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr ""
+
+#: theme-options.php:11
+#: theme-options.php:15
+msgid "General"
+msgstr ""
+
+#: theme-options.php:25
+#: theme-options.php:29
+msgid "Colors"
+msgstr ""
+
+#: theme-options.php:44
+msgid "Logo"
+msgstr ""
+
+#: theme-options.php:45
+msgid "Use a transparent png or jpg image"
+msgstr ""
+
+#: theme-options.php:55
+msgid "Favicon"
+msgstr ""
+
+#: theme-options.php:56
+msgid "Use a transparent png or ico image"
+msgstr ""
+
+#: theme-options.php:66
+msgid "Headline Font"
+msgstr ""
+
+#: theme-options.php:67
+#: theme-options.php:79
+msgid "<a href=\""
+msgstr ""
+
+#: theme-options.php:78
+msgid "Body Font"
+msgstr ""
+
+#: theme-options.php:90
+msgid "Blog Category"
+msgstr ""
+
+#: theme-options.php:91
+msgid "Select your blog category"
+msgstr ""
+
+#: theme-options.php:102
+msgid "Custom CSS"
+msgstr ""
+
+#: theme-options.php:103
+msgid "Add some custom CSS to your theme."
+msgstr ""
+
+#: theme-options.php:114
+msgid "Standard Background Color"
+msgstr ""
+
+#: theme-options.php:115
+msgid "Select background color for stardard post format."
+msgstr ""
+
+#: theme-options.php:126
+msgid "Image Background Color"
+msgstr ""
+
+#: theme-options.php:127
+msgid "Select background color for Image post format."
+msgstr ""
+
+#: theme-options.php:138
+msgid "Video Background Color"
+msgstr ""
+
+#: theme-options.php:139
+msgid "Select background color for Video post format."
+msgstr ""
+
+#: theme-options.php:150
+msgid "Quote Background Color"
+msgstr ""
+
+#: theme-options.php:151
+msgid "Select background color for Quote post format."
+msgstr ""
+
+#: theme-options.php:162
+msgid "Gallery Background Color"
+msgstr ""
+
+#: theme-options.php:163
+msgid "Select background color for Gallery post format."
+msgstr ""
+
+#: inc/extras.php:66
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:121
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:131
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/template-tags.php:134
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:164
+#, php-format
+msgid "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: inc/template-tags.php:170
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: options/options.php:128
+#: options/options.php:131
+#: options/library/theme-customizer.php:49
+msgid "Theme Options"
+msgstr ""
+
+#: options/options.php:166
+msgid " settings updated successfully."
+msgstr ""
+
+#: options/options.php:177
+msgid "Save Settings"
+msgstr ""
+
+#: options/options.php:178
+msgid "Reset Defaults"
+msgstr ""
+
+#: options/options.php:366
+#: options/options.php:386
+#: options/options.php:405
+msgid "This option has no valid options. Please create valid options as an array inside the GPP Framework."
+msgstr ""
+
+#: options/options.php:489
+msgid "Upload or Select Image"
+msgstr ""
+
+#: options/options.php:490
+#: options/options.php:585
+msgid "Remove"
+msgstr ""
+
+#: options/options.php:584
+msgid "Upload or Select Images"
+msgstr ""
+
+#: options/options.php:675
+msgid "Version: "
+msgstr ""
+
+#: options/options.php:676
+msgid "Support"
+msgstr ""
+
+#: options/options.php:677
+msgid "Theme Instructions"
+msgstr ""
+
+#: options/options.php:677
+msgid "Instructions"
+msgstr ""
+
+#: options/options.php:689
+msgid "URL"
+msgstr ""
+
+#: options/library/helpers.php:15
+msgid "-- Choose One --"
+msgstr ""
+

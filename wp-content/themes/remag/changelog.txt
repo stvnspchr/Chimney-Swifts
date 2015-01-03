@@ -1,0 +1,13 @@
+== Changelog ==
+
+= Version 1.0.2 (August 11, 2013) =
+	* Lightbox added
+	* Scrollbar added in menu
+	* Homepage styling fix
+
+= Version 1.0.1 (July 30, 2013) =
+	* Favicon bug fix
+	* Text on navigation arrows in gallery bug fix
+
+= Version 1.0 (July 22, 2013) =
+	* Initial release
