@@ -320,6 +320,27 @@ function hex2rgb($hex) {
    return $rgb; // returns an array with the rgb values
 }
 
+add_filter( 'wp_nav_menu_items', 'add_loginout_link', 10, 2 );
+function add_loginout_link( $items, $args ) {
+    if (is_user_logged_in() && $args->theme_location == 'primary') {
+        $items .= '<li class="loginout"><a href="'. wp_logout_url() .'">Log Out</a></li>';
+    }
+    elseif (!is_user_logged_in() && $args->theme_location == 'primary') {
+        $items .= '<li class="loginout"><a href="'. site_url('wp-login.php') .'">Log In</a></li>';
+
+    }
+    return $items;
+}
+
+/* redirect users to front page after login */
+function redirect_to_front_page() {
+	global $redirect_to;
+	if (!isset($_GET['redirect_to'])) {
+		$redirect_to = get_option('siteurl');
+	}
+}
+add_action('login_form', 'redirect_to_front_page');
+
 
 /**
  * Change 'Posts' post type to 'Slides'
@@ -353,3 +374,31 @@ function revcon_change_post_object() {
  
 add_action( 'admin_menu', 'revcon_change_post_label' );
 add_action( 'init', 'revcon_change_post_object' );
+
+function login_page_styles() { ?>
+    <style type="text/css">
+		body.login {
+			background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/login-backsplash.jpg);
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-position: center center;
+			background-size: cover;
+		}
+		.login h1 a {
+			display: none;
+		}
+		.login form {
+			font-weight: 100;
+			padding: 26px 24px 6px;
+			background:none;
+			box-shadow: none;
+		}
+		.login #backtoblog a, .login #nav a {
+			color: white;
+		}
+		.login label {
+			color: white;
+		}
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'login_page_styles' );

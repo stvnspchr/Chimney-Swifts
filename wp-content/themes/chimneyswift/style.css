@@ -88,6 +88,9 @@ a img {
 	border: 0;
 }
 
+/* =Admin
+----------------------------------------------- */
+
 
 /* =Global
 ----------------------------------------------- */
@@ -512,12 +515,26 @@ h2.site-description {
 /* =Registration Page
 ----------------------------------------------- */
 
+.page-template-page-registration article {
+	background-image: url(images/registration-backsplash.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+}
+
 .page-template-page-registration .entry-title {
 	text-align: center;
+	color: white !important;
+}
+
+.page-template-page-registration .hentry {
+	margin: 0;	
 }
 
 #simplr-form label {
 	margin-bottom:4px;
+	color: white !important;
 }
 
 #simplr-form input {
@@ -621,12 +638,15 @@ width: 100% !important;
 	position: absolute;
 	/*top: 0;*/
 	background: #e35845;
+	/*background: #cd4b28;*/
+	/*background: rgba(255,255,255,.4);*/
 	width: 200px;
 	overflow: hidden;
 }
 .menuwrapper li a {
     padding: 0.5em 5%;
     border-bottom: 1px solid #db3834;
+    /*border-bottom: 1px solid #efefef;*/
     color: #FFFFFF;
     display: block;
 	text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
@@ -642,14 +662,19 @@ width: 100% !important;
 }
 .menuwrapper ul li {
 	list-style: none;
-	text-transform: uppercase;
-	font-size: .9em;
-	line-height: 1.2;
-	/*display: inline;*/
+	text-transform: lowercase;
+	font-size: 1.1em;
+	line-height: 1;
+}
+.menuwrapper ul li.loginout {
+	font-size:.9em;
+	background-color: #db3834;
+	position: absolute;
+	bottom: 0;
+	width:100%;
 }
 .menuwrapper ul {
 	margin: 0;
-	/*display: inline;*/
 }
 
 /**
@@ -784,7 +809,7 @@ a.right-move:before,
 	-webkit-border-radius: 0px 0px 5px 0px;
 }
 .logged-in #togtopmenu {
-	top:32px;
+	/*top:32px;*/
 }
 #togtopmenu:before {
 	content: '\f419';
@@ -795,8 +820,8 @@ a.right-move:before,
 }
 
 .page-template-default #togtopmenu, 
-.page-template-page-notes #togtopmenu,
-.page-template-page-registration #togtopmenu {
+.page-template-page-notes #togtopmenu
+/*.page-template-page-registration #togtopmenu */{
 	color: black;
 }
 

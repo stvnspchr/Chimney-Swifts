@@ -25,9 +25,6 @@ get_header(); ?>
 				<div class="entry-content">
 					<?php the_content(); ?>
 				</div><!-- .entry-content -->
-
-				<?php edit_post_link( __( 'Edit', 'remag' ), '<footer class="entry-meta"><span class="edit-link">', '</span></footer>' ); ?>
-
 			</div>
 		</article><!-- #post-## -->
 
